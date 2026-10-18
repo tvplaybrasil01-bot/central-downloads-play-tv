@@ -1,0 +1,18 @@
+CENTRAL DE DOWNLOADS PLAY TV
+
+Arquivos:
+- index.html: página principal
+- assets/play-tv.jpg: logomarca PLAY TV
+- assets/world-tv.jpg: logomarca World TV
+- assets/flash-tv.jpg: logomarca Flash TV
+
+PUBLICAR NO GITHUB + CLOUDFLARE PAGES
+1. Extraia o ZIP.
+2. No GitHub, crie um repositório público chamado central-downloads-play-tv.
+3. Envie index.html e a pasta assets (não envie a pasta central_downloads_play_tv inteira como uma pasta aninhada).
+4. No Cloudflare, abra Workers & Pages > Create > Pages > Connect to Git.
+5. Escolha o repositório.
+6. Framework preset: None. Build command: deixe vazio. Build output directory: / (raiz).
+7. Clique em Save and Deploy.
+
+Os links de download inseridos são os que foram fornecidos pelo usuário. Os três botões PLAY TV usam o mesmo link informado; confirme se esse link oferece a versão correta para cada dispositivo.
